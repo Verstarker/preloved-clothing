@@ -1,0 +1,23 @@
+.home-content {
+  text-align: left;
+
+  .home-main-content {
+    text-align: center;
+  }
+
+  .home-textbox-1, .home-textbox-2 {
+    background-color: $color__pink;
+
+    .home-textbox-caption, .home-textbox-img {
+      display: inline-block;
+    }
+
+    .home-textbox-caption {
+      width: 60%;
+    }
+
+    .home-textbox-img {
+      width: 40%;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+#masthead {
+  background-color: $color__blue;
+  min-height: 80px;
+  position: relative;
+
+  .site-title {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+
+    a {
+      color: #fff;
+      font-size: 50px;
+      font-family: $font__main-heading;
+    }
+  }
+
+  .site-branding {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    z-index: 10;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.banner {
+  position: relative;
+
+    .entry-header {
+      position: absolute;
+      bottom: 0;
+      left: 150px;
+      z-index: 10;
+    }
+}
