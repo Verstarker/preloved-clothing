@@ -7,17 +7,32 @@
 
   .home-textbox-1, .home-textbox-2 {
     background-color: $color__pink;
+    margin-bottom: 50px;
 
     .home-textbox-caption, .home-textbox-img {
       display: inline-block;
     }
 
     .home-textbox-caption {
-      width: 60%;
+      padding: 50px;
     }
 
     .home-textbox-img {
-      width: 40%;
+      vertical-align: top;
+      font-size: 0;
+      width: 100%;
+    }
+  }
+
+  .home-textbox-1 {
+    .home-textbox-caption {
+      padding-left: 100px;
+    }
+  }
+
+  .home-textbox-2 {
+    .home-textbox-caption {
+      padding-right: 100px;
     }
   }
 }

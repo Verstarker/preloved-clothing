@@ -34,42 +34,53 @@ $home_textbox2_image = get_theme_mod('preloved_home_textbox2_image');
 
     if ($home_textbox1 && $home_textbox1_image) {
     ?>
-    <div class="home-textbox-1">
-		<?php if ($home_textbox1_image || is_customize_preview()) :?>
-            <img id="home-textbox-img" alt="<?php the_title(); ?>" src="<?php echo get_theme_mod('preloved_home_textbox1_image'); ?> "onerror="this.style.display='none'"">
-		<?php endif; ?>
+        <div class="row">
+            <div class="home-textbox-1">
+		        <?php if ($home_textbox1_image || is_customize_preview()) :?>
+                <div class="column column-5">
+                    <img class="home-textbox-img" alt="<?php the_title(); ?>" src="<?php echo get_theme_mod('preloved_home_textbox1_image'); ?> "onerror="this.style.display='none'"">
+                </div><!-- .column -->
+		        <?php endif; ?>
+                <div class="column column-7">
+                    <div class="home-textbox-caption">
+		                <?php if ($home_textbox1_heading || is_customize_preview()) :?>
+                            <h2><?php echo $home_textbox1_heading; ?></h2>
+		                <?php endif;
 
-        <div class="home-textbox-caption">
-		<?php if ($home_textbox1_heading || is_customize_preview()) :?>
-            <h2><?php echo $home_textbox1_heading; ?></h2>
-        <?php endif;
-
-		if ($home_textbox1 || is_customize_preview()) :
-			echo wpautop($home_textbox1); ?>
-		<?php endif; ?>
-        </div><!-- .home-textbox-caption -->
-    </div><!-- .home-textbox-1 -->
+		                if ($home_textbox1 || is_customize_preview()) :
+			                echo wpautop($home_textbox1); ?>
+		                <?php endif; ?>
+                    </div><!-- .home-textbox-caption -->
+                </div><!-- .column -->
+            </div><!-- .home-textbox-1 -->
+        </div><!-- .row -->
 	<?php
     }
 
 	if ($home_textbox2 && $home_textbox2_image) {
 	?>
-    <div class="home-textbox-2">
-        <div class="home-textbox-caption">
-		    <?php if ($home_textbox2_heading || is_customize_preview()) :?>
-                <h2><?php echo $home_textbox2_heading; ?></h2>
-		    <?php endif;
+    <div class="row">
+        <div class="home-textbox-2">
+            <div class="column column-7">
+                <div class="home-textbox-caption">
+		            <?php if ($home_textbox2_heading || is_customize_preview()) :?>
+                        <h2><?php echo $home_textbox2_heading; ?></h2>
+		            <?php endif;
 
-		    if ($home_textbox2 || is_customize_preview()) :
-			    echo wpautop($home_textbox2); ?>
+		            if ($home_textbox2 || is_customize_preview()) :
+			            echo wpautop($home_textbox2); ?>
+		            <?php endif; ?>
+                </div><!-- .home-textbox-caption -->
+            </div><!-- .column -->
+
+		    <?php if ($home_textbox2_image || is_customize_preview()) :?>
+            <div class="column column-5">
+                <img class="home-textbox-img" alt="<?php the_title(); ?>" src="<?php echo get_theme_mod('preloved_home_textbox2_image'); ?> "onerror="this.style.display='none'"">
+            </div><!-- .column -->
 		    <?php endif; ?>
-        </div><!-- .home-textbox-caption -->
 
-        <?php if ($home_textbox2_image || is_customize_preview()) :?>
-            <img id="home-textbox-img" alt="<?php the_title(); ?>" src="<?php echo get_theme_mod('preloved_home_textbox2_image'); ?> "onerror="this.style.display='none'"">
-		<?php endif; ?>
-
-    </div><!-- .home-textbox-2 -->
+        </div><!-- .home-textbox-2 -->
+    </div><!-- .row -->
     <?php
     }
     ?>

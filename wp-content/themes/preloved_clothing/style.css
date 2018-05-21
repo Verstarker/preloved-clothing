@@ -565,7 +565,7 @@ a {
 --------------------------------------------------------------*/
 .main-navigation {
   display: inline-block;
-  width: 60%;
+  width: 100%;
   text-align: right; }
   .main-navigation .menu-right {
     display: inline-block; }

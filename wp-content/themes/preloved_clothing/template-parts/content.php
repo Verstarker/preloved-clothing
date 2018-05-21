@@ -29,8 +29,6 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php underscores_demo_post_thumbnail(); ?>
-
 	<div class="entry-content">
 		<?php
 		the_content( sprintf(
