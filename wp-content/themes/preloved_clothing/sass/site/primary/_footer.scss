@@ -1,3 +1,39 @@
 .site-footer {
   background-color: $color__blue;
+  color: #fff;
+  padding: 30px;
+
+  .holder {
+    max-width: 900px;
+
+    .main-footer {
+      .column {
+        ul#footer-menu {
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+          li {
+            display: inline-block;
+            margin-right: 20px;
+          }
+        }
+
+        &:last-child {
+          text-align: right;
+        }
+      }
+    }
+  }
+
+  a {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
 }

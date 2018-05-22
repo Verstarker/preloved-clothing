@@ -15,19 +15,24 @@
 
 	<footer id="colophon" class="site-footer">
         <div class="holder">
-            <div class="site-info">
-                <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'underscores_demo' ) ); ?>">
-			        <?php
-			        /* translators: %s: CMS name, i.e. WordPress. */
-			        printf( esc_html__( 'Proudly powered by %s', 'underscores_demo' ), 'WordPress' );
-			        ?>
-                </a>
-                <span class="sep"> | </span>
-		        <?php
-		        /* translators: 1: Theme name, 2: Theme author. */
-		        printf( esc_html__( 'Theme: %1$s by %2$s.', 'underscores_demo' ), 'underscores_demo', '<a href="http://underscores.me/">Hayden Wrathall</a>' );
-		        ?>
-            </div><!-- .site-info -->
+            <div class="main-footer row">
+                <div class="column column-6">
+                    <p>Navigation</p>
+	                <?php
+	                wp_nav_menu( array(
+		                'theme_location' => 'menu-1',
+		                'menu_id'        => 'footer-menu',
+	                ) );
+	                ?>
+                </div><!-- .column -->
+                <div class="column column-6">
+                    <p>Contact:</p>
+                    <p>03-332-0289</p>
+                    <br>
+                    <p>Address:</p>
+                    <p>3 Milton St</p>
+                </div><!-- .column -->
+            </div><!-- .row -->
         </div><!-- .holder -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

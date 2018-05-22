@@ -16,7 +16,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-    <link href="https://fonts.googleapis.com/css?family=Tangerine:400,700|Work+Sans:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine:400,700|Cookie|Lato:300,400,700" rel="stylesheet">
 
     <?php wp_head(); ?>
 </head>
@@ -61,8 +61,14 @@
 	</header><!-- #masthead -->
 
     <div class="banner">
-		<?php underscores_demo_post_thumbnail(); ?>
-        <h1 class="home-title"><?php echo get_bloginfo('name'); ?></h1>
+		<?php underscores_demo_post_thumbnail();
+		if (!is_home() || body_class() == 'woocommerce-page' ) :
+            the_title( '<h1 class="entry-title">', '</h1>' );
+		elseif (body_class() == 'woocommerce-page') :
+
+        else : ?>
+            <h1 class="page-title"><?php echo get_bloginfo('name'); ?></h1>
+		<?php endif; ?>
     </div>
 
     <div class="holder">

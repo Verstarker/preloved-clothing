@@ -1,8 +1,21 @@
 .holder {
   position: relative;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.site-content {
+  margin: 0;
+  padding: 20px 0;
+
+  .row {
+    .column {
+      #primary {
+        padding-right: 30px;
+      }
+    }
+  }
 }
 
 .row { font-size:0; position:relative; }
