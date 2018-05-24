@@ -61,14 +61,28 @@
 	</header><!-- #masthead -->
 
     <div class="banner">
-		<?php underscores_demo_post_thumbnail();
-		if (!is_home() || body_class() == 'woocommerce-page' ) :
-            the_title( '<h1 class="entry-title">', '</h1>' );
-		elseif (body_class() == 'woocommerce-page') :
-
-        else : ?>
+        <?php
+		if (is_front_page() ):
+			underscores_demo_post_thumbnail()?>
             <h1 class="page-title"><?php echo get_bloginfo('name'); ?></h1>
-		<?php endif; ?>
+
+        <?php
+		elseif (is_shop() || is_product_category()) : ?>
+
+            <div id="page-header-image">
+				<?php
+				$target_post_id = wc_get_page_id('shop');
+				$feat_image = wp_get_attachment_url(get_post_thumbnail_id($target_post_id));
+				echo '<img src="' . $feat_image . '">';
+				?>
+            </div>
+
+        <?php elseif (is_product()) :?>
+            <div class="test"></div>
+        <?php else :
+			underscores_demo_post_thumbnail();
+			the_title( '<h1 class="entry-title">', '</h1>' );
+		endif; ?>
     </div>
 
     <div class="holder">

@@ -371,7 +371,10 @@ h1 {
 h2, h3, h4, h5, h6 {
   font-family: "Cookie", serif; }
 
-.home-title {
+h2 {
+  font-size: 40px; }
+
+.page-title, .banner .entry-title {
   position: absolute;
   bottom: 0;
   left: 4%; }
@@ -744,7 +747,7 @@ a {
 .page-content,
 .entry-content,
 .entry-summary {
-  margin: 1.5em 0 0; }
+  margin: 0; }
 
 .page-links {
   clear: both;
@@ -788,7 +791,28 @@ a {
     z-index: 10; }
 
 .site-footer {
-  background-color: #5891cf; }
+  background-color: #5891cf;
+  color: #fff;
+  padding: 30px; }
+  .site-footer .holder {
+    max-width: 900px; }
+    .site-footer .holder .main-footer .column ul#footer-menu {
+      margin: 0;
+      padding: 0;
+      list-style-type: none; }
+      .site-footer .holder .main-footer .column ul#footer-menu li {
+        display: inline-block;
+        margin-right: 20px; }
+    .site-footer .holder .main-footer .column:last-child {
+      text-align: right; }
+  .site-footer a {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none; }
+  .site-footer p {
+    margin: 0;
+    padding: 0; }
 
 /*--------------------------------------------------------------
 # Infinite scroll
@@ -873,9 +897,15 @@ object {
 
 .holder {
   position: relative;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px; }
+
+.site-content {
+  margin: 0;
+  padding: 20px 0; }
+  .site-content .row .column #primary {
+    padding-right: 30px; }
 
 .row {
   font-size: 0;
@@ -1028,7 +1058,7 @@ object {
     .home-content .home-textbox-1 .home-textbox-caption, .home-content .home-textbox-1 .home-textbox-img, .home-content .home-textbox-2 .home-textbox-caption, .home-content .home-textbox-2 .home-textbox-img {
       display: inline-block; }
     .home-content .home-textbox-1 .home-textbox-caption, .home-content .home-textbox-2 .home-textbox-caption {
-      padding: 50px; }
+      padding: 48px; }
     .home-content .home-textbox-1 .home-textbox-img, .home-content .home-textbox-2 .home-textbox-img {
       vertical-align: top;
       font-size: 0;
@@ -1037,5 +1067,13 @@ object {
     padding-left: 100px; }
   .home-content .home-textbox-2 .home-textbox-caption {
     padding-right: 100px; }
+
+.woocommerce-page .entry-title {
+  display: none; }
+.woocommerce-page .page-title {
+  position: static;
+  color: #292929; }
+.woocommerce-page .site-content {
+  margin-top: 50px; }
 
 /*# sourceMappingURL=style.css.map */
