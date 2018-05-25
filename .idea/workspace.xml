@@ -2,107 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="631710d7-eb9b-4316-9250-11f211ac41d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/template-parts/content-blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/css/styles-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/edit-contact-form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/admin-functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/editor.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/help-tabs.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/tag-generator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/js/tag-generator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/images/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/capabilities.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/config-validator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form-functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form-template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/css/styles-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/form-tag.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/form-tags-manager.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/formatting.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/integration.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_222222_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_454545_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_888888_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/l10n.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/pipe.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/rest-api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/shortcodes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/special-mail-tags.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/submission.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/upgrade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/validation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/languages/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/acceptance.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/akismet.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/checkbox.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/count.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/date.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/file.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/flamingo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/hidden.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/listo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/number.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/quiz.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/really-simple-captcha.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/recaptcha.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/response.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/select.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/submit.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/text.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/textarea.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/settings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/uninstall.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/wp-contact-form-7.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/css/woocommerce.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/css/woocommerce.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/css/woocommerce.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/css/woocommerce.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/inc/template-tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/inc/template-tags.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/sass/forms/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/sass/forms/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/sass/forms/_fields.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/sass/forms/_fields.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/sass/navigation/_menus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/sass/navigation/_menus.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/sass/shop/_checkout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/sass/shop/_checkout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/sass/shop/_components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/sass/shop/_components.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/sass/shop/_products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/sass/shop/_products.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/sass/shop/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/sass/shop/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/sass/site/primary/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/sass/site/primary/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/sass/variables-site/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/sass/variables-site/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/sass/woocommerce.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/sass/woocommerce.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/template-parts/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/template-parts/content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/woocommerce.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/preloved_clothing/woocommerce.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -158,8 +58,8 @@
       <file leaf-file-name="content-blog.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/preloved_clothing/template-parts/content-blog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+            <state relative-caret-position="165">
+              <caret line="17" column="74" lean-forward="true" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -444,12 +344,12 @@
       <updated>1526345617293</updated>
       <workItem from="1526345619127" duration="17296000" />
       <workItem from="1526613072898" duration="4372000" />
-      <workItem from="1526866244521" duration="24186000" />
+      <workItem from="1526866244521" duration="24299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45854000" />
+    <option name="totallyTimeSpent" value="45967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="805" extended-state="0" />
@@ -803,8 +703,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/preloved_clothing/template-parts/content-blog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        <state relative-caret-position="165">
+          <caret line="17" column="74" lean-forward="true" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
         </state>
       </provider>
     </entry>
