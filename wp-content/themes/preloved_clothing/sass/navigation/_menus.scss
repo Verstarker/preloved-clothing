@@ -56,10 +56,6 @@
 		float: left;
 		position: relative;
 		margin-right: 20px;
-
-		&:last-child {
-			margin-right: 0;
-		}
 		&:hover > a,
 		&.focus > a {
 		}
@@ -73,10 +69,37 @@
 		font-size: 24px;
 	}
 
+  a.cart-link {
+    display: inline-block;
+    position: relative;
+
+    span {
+      position: absolute;
+      top: -15px;
+      right: -10px;
+      z-index: 5;
+      background: $color__pink;
+      padding: 0 6px;
+      border-radius: 50%;
+      font-size: 16px;
+      color: #222;
+    }
+  }
+
 	.current_page_item > a,
 	.current-menu-item > a,
 	.current_page_ancestor > a,
 	.current-menu-ancestor > a {
+	}
+
+	i {
+		color: #fff;
+		font-size: 30px;
+        vertical-align: top;
+
+      &:hover {
+        cursor: pointer;
+      }
 	}
 }
 

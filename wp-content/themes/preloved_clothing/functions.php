@@ -151,6 +151,12 @@ function preloved_custom_logo_setup() {
 	add_theme_support( 'custom-logo', $defaults );
 }
 
+function preloved_custom_excerpt_length($length) {
+	return 30;
+}
+
+add_filter('excerpt_length', 'preloved_custom_excerpt_length', 999);
+
 add_action( 'after_setup_theme', 'preloved_custom_logo_setup' );
 
 

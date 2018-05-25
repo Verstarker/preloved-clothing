@@ -482,20 +482,21 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  border: 1px solid;
-  border-color: #ccc #ccc #bbb;
+  border: 3px solid;
+  border-color: #5891cf;
   border-radius: 3px;
-  background: #e6e6e6;
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 12px;
-  font-size: 0.75rem;
+  background: #fff;
+  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1;
-  padding: .6em 1em .4em; }
+  padding: .4em 1em;
+  color: #5891cf; }
   button:hover,
   input[type="button"]:hover,
   input[type="reset"]:hover,
   input[type="submit"]:hover {
-    border-color: #ccc #bbb #aaa; }
+    border-color: #ccc #bbb #aaa;
+    cursor: pointer; }
   button:active, button:focus,
   input[type="button"]:active,
   input[type="button"]:focus,
@@ -524,7 +525,8 @@ textarea {
   color: #666;
   border: 1px solid #ccc;
   border-radius: 3px;
-  padding: 3px; }
+  padding: 3px;
+  width: 100%; }
   input[type="text"]:focus,
   input[type="email"]:focus,
   input[type="url"]:focus,
@@ -548,6 +550,9 @@ select {
 
 textarea {
   width: 100%; }
+
+.search-form input[type="search"] {
+  width: 190px; }
 
 /*--------------------------------------------------------------
 # Navigation
@@ -600,14 +605,31 @@ a {
     float: left;
     position: relative;
     margin-right: 20px; }
-    .main-navigation li:last-child {
-      margin-right: 0; }
   .main-navigation a {
     display: block;
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
     font-size: 24px; }
+  .main-navigation a.cart-link {
+    display: inline-block;
+    position: relative; }
+    .main-navigation a.cart-link span {
+      position: absolute;
+      top: -15px;
+      right: -10px;
+      z-index: 5;
+      background: #fee1ef;
+      padding: 0 6px;
+      border-radius: 50%;
+      font-size: 16px;
+      color: #222; }
+  .main-navigation i {
+    color: #fff;
+    font-size: 30px;
+    vertical-align: top; }
+    .main-navigation i:hover {
+      cursor: pointer; }
 
 /* Small menu. */
 .menu-toggle,
@@ -773,7 +795,8 @@ a {
     #masthead .site-title a {
       color: #fff;
       font-size: 50px;
-      font-family: "Tangerine", sans-serif; }
+      font-family: "Tangerine", sans-serif;
+      text-decoration: none; }
   #masthead .site-branding {
     position: absolute;
     top: 0;

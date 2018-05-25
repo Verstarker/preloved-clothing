@@ -2,6 +2,10 @@
  * Shop tables
  */
 table.shop_table_responsive {
+	border: 1px solid #222;
+	padding: 20px;
+	border-radius: 10px;
+
 	thead {
 		display: none;
 	}
@@ -26,6 +30,12 @@ table.shop_table_responsive {
 			&.product-remove {
 				a {
 					text-align: left;
+					padding: 5px 10px;
+					border: 1px solid red;
+					border-radius: 50%;
+					color: red;
+					text-decoration: none;
+					margin-right: 10px;
 				}
 
 				&:before {
@@ -64,11 +74,12 @@ table.shop_table_responsive {
 
 		tr {
 			th, td {
-				text-align: left;
+				text-align: center;
 			}
 
 			td {
 				display: table-cell;
+              padding: 0 5px;
 
 				&:before {
 					display: none;

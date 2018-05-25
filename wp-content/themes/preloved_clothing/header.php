@@ -16,6 +16,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Tangerine:400,700|Cookie|Lato:300,400,700" rel="stylesheet">
 
     <?php wp_head(); ?>
@@ -57,6 +58,14 @@
 	            ) );
 	            ?>
             </div><!-- .menu-right -->
+            <?php $count = WC()->cart->cart_contents_count; ?>
+            <a href="<?php echo get_permalink( wc_get_page_id( 'cart' )) ?>" class="cart-link">
+                <i class="fas fa-shopping-cart"></i>
+	            <?php if ($count> 0 ) : ?>
+                    <span class="cart-contents-count"><?php echo esc_html( $count ); ?></span>
+                <?php endif; ?>
+            </a>
+
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
@@ -79,9 +88,24 @@
 
         <?php elseif (is_product()) :?>
             <div class="test"></div>
-        <?php else :
-			underscores_demo_post_thumbnail();
-			the_title( '<h1 class="entry-title">', '</h1>' );
+		<?php elseif (is_home()) : ?>
+			<div id="page-header-image">
+				<?php
+				$target_post_id = wc_get_page_id('shop');
+				$feat_image = wp_get_attachment_url(get_post_thumbnail_id($target_post_id));
+				echo '<img src="' . $feat_image . '">';
+				?>
+            </div>
+            <h1 class="page-title">Blog</h1>
+		<?php else : ?>
+			<div id="page-header-image">
+				<?php
+				$target_post_id = wc_get_page_id('shop');
+				$feat_image = wp_get_attachment_url(get_post_thumbnail_id($target_post_id));
+				echo '<img src="' . $feat_image . '">';
+				?>
+            </div>
+			<?php the_title( '<h1 class="entry-title">', '</h1>' );
 		endif; ?>
     </div>
 

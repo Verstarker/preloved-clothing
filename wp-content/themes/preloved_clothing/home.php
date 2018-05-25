@@ -1,8 +1,13 @@
 <?php
 /**
- * The template for displaying all single posts
+ * The template for displaying all pages
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site may use a
+ * different template.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package underscores_demo
  */
@@ -18,9 +23,7 @@ get_header();
 			    while ( have_posts() ) :
 				    the_post();
 
-				    get_template_part( 'template-parts/content', get_post_type() );
-
-				    the_post_navigation();
+				    get_template_part( 'template-parts/content-blog', 'page' );
 
 				    // If comments are open or we have at least one comment, load up the comment template.
 				    if ( comments_open() || get_comments_number() ) :
@@ -32,12 +35,13 @@ get_header();
 
             </main><!-- #main -->
         </div><!-- #primary -->
-    </div>
+    </div><!-- .column-->
     <div class="column column-4">
-        <?php get_sidebar(); ?>
-    </div>
-</div>
-
+	    <?php
+	    get_sidebar();
+	    ?>
+    </div><!-- .column -->
+</div><!-- .row -->
 
 <?php
 get_footer();

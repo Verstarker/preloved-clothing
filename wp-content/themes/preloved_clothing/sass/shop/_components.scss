@@ -215,6 +215,13 @@ p.no-comments {
 	@include clearfix;
 	background-color: $woocommerce__color-success;
 	clear: both;
+	padding: 10px 20px;
+	border-radius: 10px;
+	color: #fff;
+
+	a {
+		color: #fff;
+	}
 }
 
 .woocommerce-info,

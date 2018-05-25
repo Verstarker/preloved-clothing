@@ -29,7 +29,7 @@
 		<?php
         underscores_demo_post_thumbnail();
         preloved_posted_on();
-		the_content( sprintf(
+		the_excerpt( sprintf(
 			wp_kses(
 				/* translators: %s: Name of current post. Only visible to screen readers */
 				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'underscores_demo' ),
