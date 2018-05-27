@@ -23,6 +23,10 @@
     z-index: 10;
     display: inline-block;
     vertical-align: middle;
+    @media only screen and (max-width: 980px) {
+      position: static!important;
+      margin: 0 auto!important;
+    }
   }
 }
 
@@ -35,4 +39,14 @@
       left: 150px;
       z-index: 10;
     }
+}
+
+@media only screen and (max-width: 980px) {
+  #masthead {
+    .site-branding {
+      position: static;
+      margin: 0 auto;
+      display: block;
+    }
+  }
 }

@@ -362,14 +362,14 @@ h1, h2, h3, h4, h5, h6 {
   clear: both; }
 
 h1 {
-  font-family: "Tangerine", sans-serif;
+  font-family: "Tangerine", cursive;
   margin: 0;
   color: #fff;
   font-size: 120px;
   line-height: 0.6; }
 
 h2, h3, h4, h5, h6 {
-  font-family: "Cookie", serif; }
+  font-family: "Cookie", cursive; }
 
 h2 {
   font-size: 40px; }
@@ -579,6 +579,13 @@ a {
   padding: 19px 20px; }
   .main-navigation .menu-right {
     display: inline-block; }
+    .main-navigation .menu-right button.menu-toggle {
+      background: none;
+      border: none;
+      position: absolute;
+      right: 0; }
+      .main-navigation .menu-right button.menu-toggle:hover {
+        color: #222; }
   .main-navigation ul {
     display: none;
     list-style: none;
@@ -630,6 +637,37 @@ a {
     vertical-align: top; }
     .main-navigation i:hover {
       cursor: pointer; }
+
+.mobile-nav {
+  display: none;
+  width: 350px;
+  position: fixed;
+  left: -350px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  overflow: auto;
+  background-color: #355c7d;
+  transition: left .2s ease;
+  z-index: 3000; }
+
+.mobile-nav header {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 10px; }
+
+.mobile-nav a {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0; }
+
+.mobile-nav-active .mobile-nav {
+  left: 0;
+  display: block; }
 
 /* Small menu. */
 .menu-toggle,
@@ -795,7 +833,7 @@ a {
     #masthead .site-title a {
       color: #fff;
       font-size: 50px;
-      font-family: "Tangerine", sans-serif;
+      font-family: "Tangerine", cursive;
       text-decoration: none; }
   #masthead .site-branding {
     position: absolute;
@@ -804,6 +842,10 @@ a {
     z-index: 10;
     display: inline-block;
     vertical-align: middle; }
+    @media only screen and (max-width: 980px) {
+      #masthead .site-branding {
+        position: static !important;
+        margin: 0 auto !important; } }
 
 .banner {
   position: relative; }
@@ -813,6 +855,11 @@ a {
     left: 150px;
     z-index: 10; }
 
+@media only screen and (max-width: 980px) {
+  #masthead .site-branding {
+    position: static;
+    margin: 0 auto;
+    display: block; } }
 .site-footer {
   background-color: #5891cf;
   color: #fff;
